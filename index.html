@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamboli Rehan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/CSS">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Rehan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/aboutme.html">About</a></li>
+                    <li><a href="/#second">Education</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection1">
+                Hi My name is <br>
+                <span class="purple">Tamboli Md.Rehan</span>
+                <div>And I am a passionate </div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <hr>
+                <button class="btn1">Download CV</button>
+                <button class="btn2">Resume</button>
+
+            </div>
+            <div class="rightsection">
+                <figure> <img src="bg.png/bg,png.png" alt="developer image "> </figure>
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="second">
+            <div class="leftsection2">
+                <p> <b> Experience-Totally Fresher</b> </p>
+                <h5>"Enthusiastic and motivated beginner web developer with a strong foundation in HTML, CSS, and
+                    JavaScript. Dedicated to expanding my knowledge and staying up-to-date with the latest web
+                    development trends and technologies. Completed several hands-on projects, including building
+                    responsive websites and implementing interactive features. Committed to delivering clean and
+                    user-friendly code, I am eager to contribute to a dynamic team where I can continue to grow as a web
+                    developer and contribute to impactful projects." </h5>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student.', 'Web Designer..', 'Web Developer...'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

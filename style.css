@@ -1,0 +1,113 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: rgb(169, 171, 220);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            float: right;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+            color: rgb(198, 149, 244);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(169, 169, 235);
+        }
+
+        nav ul li a:hover {
+            color: rgb(248, 247, 249);
+            font-size: 1.09rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        main hr {
+            border: 0px;
+            height: 2px;
+            margin: 12px;
+            background-color: rgb(60 60 177);
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 1px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection1 {
+            /* background-color: rgb(240, 16, 16); */
+            width: 50%;
+            font-size: 2.5rem;
+            /* margin: 70px 0; */
+        }
+
+        .btn1 {
+            padding: 12px 12px;
+            background-color: rgb(18, 18, 62);
+            color: rgb(252, 252, 252);
+            cursor: pointer;
+            border: none;
+            border-radius: 40px;
+            /* display: inline-block; */
+        }
+
+        .btn2 {
+            padding: 12px 12px;
+            background-color: rgb(18, 18, 62);
+            color: rgb(252, 252, 252);
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            /* display:inline; */
+
+        }
+
+        .rightsection {
+            /* background-color: rgb(240, 16, 16); */
+            width: 10%;
+            height: 24rem;
+            /* margin: 50px 0; */
+
+        }
+
+        .purple {
+            color: rgb(163, 82, 239);
+        }
+
+        #element {
+            color: rgb(163, 82, 239);
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80vw;
+        }
